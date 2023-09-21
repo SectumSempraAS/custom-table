@@ -1,0 +1,15 @@
+.custom-table-container {
+    display: flex;
+    flex-direction: column;
+
+    > table {
+        table-layout: fixed;
+        width: 40%;
+        border-collapse: collapse;
+    }
+}
+
+td {
+    /* border: 1px solid black; */
+    padding: 20px;
+}
